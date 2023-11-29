@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> 
+            TOP 50 COUNTRIES IN THE WORLD/ AF1
+        </title>
+            <style>
+                img{
+                    margin: 4%;
+                    width: 200px;
+                    height: 200px;
+                    cursor: pointer;
+                    image-rendering: 20px;
+                }
+
+                th,td{
+                    text-align: center;
+                    border: solid black;
+                    margin: 4px; 
+                    padding: 5px;
+                border-collapse: collapse;
+                color: gray;
+                }
+                button{
+                    cursor: pointer;
+                }
+                h1{
+                    text-align: right;
+                    background-color: coral;
+                    color:cyan;
+                }
+                myy{
+                    color: cyan;
+                }
+            </style>
+    </head>
+    <body>
+        <h1> <button class="myy"> Add to Cart</button></h1>
+        <div>
+        <img src="img/blue suit.jpg" alt="suit" >
+        <button onclick=" addtocart = addtocart + 1;
+        console.log(`cart Quantity: ${addtocart}`);
+
+        "> Add to Cart</button>
+        
+        <button onclick=" addtocart= addtocart + 2;
+        console.log(`cart Quantity: ${addtocart * price}`);
+        "> +2</button>
+    
+        <button onclick=" addtocart= addtocart + 3; 
+        console.log(`cart Quantity: ${addtocart * price}`);
+        "> +3</button>
+    
+        <button onclick=" addtocart= addtocart - 2; 
+        console.log(`cart Quantity: ${price /addtocart}`);
+        "> -2</button>
+    
+        <button onclick=" addtocart= addtocart - 3; 
+        console.log(`cart Quantity: ${price /addtocart}`);
+        "> -3</button>
+        <button onclick=" addtocart = 0;
+        console.log('removed from cart');
+        ">remove from cart</button>
+        </div>
+        <script> 
+            let addtocart= 0;
+            let price= 70.23;
+           
+        </script>
+    </div>
+    <div> 
+        <img src="img/Office wear.jpg" alt="shirt">
+        <button onclick=""> Buy </button>
+    </div>
+
+
+
+        <div>
+        <input type="email" name="email" id="email">
+        <input type="country" name=" country" id="country">
+        <p> click here to open <button> click</button></p>
+        <div>
+        <table> 
+            <thead> 
+                <tr>
+                <th> source of income </th>
+                <th> output </th>
+                <th> income</th>
+            </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td> Doctor</td>
+                    <td> 5k montly</td>
+                    <td> 25k montly</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+       </body>
+</html>
