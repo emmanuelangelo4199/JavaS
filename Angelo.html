@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Angelo Hub</title>
+
+  <style>
+    h1{
+      background-color: gold;
+      color:white;
+      padding: 20px;
+      text-align: center;
+    }
+    button{
+      background-color: rgb(245, 241, 16);
+      color: white;
+      box-shadow: 0 0 20px rgb(238, 255, 0);
+      border: white;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+      text-overflow: 40px ;
+    }
+    .button:hover{
+      color: rgb(87, 126, 80);
+      box-shadow: 0 0 5px rgb(229, 255, 0),
+      0 0 20px rgb(229, 255, 0), 0 0 50px rgb(217, 255, 0);
+    }
+  
+
+    table{
+      border: 1px solid black;
+      text-align: center;
+      border-collapse: collapse;
+    }
+    td,th{
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+    .basketball{
+      width:200px;
+      margin-left: 50px;
+      cursor: pointer;
+    }
+    
+  </style>
+</head>
+<body>
+<h1> A place of all decor </h1>
+<img class="basketball" src="img/basket-ball.jpg" alt="a basket ball">
+<p> Basket Ball</p>
+<p> 20.33$</p>
+<p> 
+<button onclick=" cartQuantity= cartQuantity + 1;
+console.log(`cart Quantity: ${cartQuantity}`);
+" class="button"> Add to Cart</button>
+
+<button onclick=" 
+cartQuantity= cartquantity + 2;
+console.log(`cartQuantity: ${cartQuantity}`);
+">+2</button>
+</p>
+
+<img src="img/Af1-Black.jpg" alt="shoe">
+<div>
+<table>
+<thead>
+  <tr> 
+    <th> Name </th>  
+<th> Price of the Quantity</th>
+<th> Size of the Quantity</th>
+<th> Date of the Commodity</th>
+    
+  </tr>
+</thead>
+<tbody>
+  <tr>
+<td> Basket Ball</td>
+<td> 75$</td>
+<td> 23 mm</td>
+<td> 23/ 05/ 2023</td>
+</tr>
+<tr>
+  <td> Nike Shoe</td>
+  <td> 100$</td>
+  <td> Size 40</td>
+  <td> 13/ 05/ 2023</td>
+</tr>
+</tbody>
+</table>
+</div>
+<script>
+  let cartQuantity= 0;
+</script>
+<ul> 
+  <li> * The table show variable of:</li>
+</ul>
+
+<form> 
+  <div>
+  <input type="text" placeholder=" fullname" name="name">
+</div>
+<div>
+  <input type="password" placeholder=" password" name=" password">
+</div>
+<div>
+  <input type=" confirm password again" placeholder=" confirm password again" name="confirm password again">
+</div>
+  <input type="submit">
+
+  
+</form>
+<h3> Hello world</h3>
+</body>
+</html>
