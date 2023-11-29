@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title> Calculator </title>
+    <style>
+    button{
+      background-color: orange;
+      border: 3px round solid gold;
+      font-size: 15px;
+      padding: 7px;
+      font-weight: bold;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+   </style>
+  </head>
+  <body>
+    <div>
+    <p>
+<button onclick=" calculation= calculation + 1;
+console.log(calculation);
+alert('Entered');
+"> 1</button>
+
+<button onclick=" calculation= calculation + 2;
+console.log(calculation);
+"> 2</button>
+
+<button onclick=" calculation= calculation + 3; 
+console.log(calculation);
+"> 3</button>
+
+<button onclick=" calculation= calculation + '+';
+console.log(calculation);
+"> +</button>
+
+<button onclick=" calculation= eval(calculation);
+console.log(calculation);
+"> =</button> 
+</p>
+</div>
+
+<div>
+<p>
+<button onclick=" calculation= calculation + 4;
+console.log(calculation);
+"> 4</button>
+
+<button onclick=" calculation= calculation + 5;
+console.log(calculation);
+"> 5</button>
+
+<button onclick=" calculation= calculation + 6;
+console.log(calculation);
+"> 6</button>
+
+<button onclick=" calculation= calculation + 7;
+console.log(calculation);
+"> 7</button>
+
+<button onclick=" calculation= calculation + '-'; 
+console.log(calculation); 
+"> -</button>
+</p>
+</div>
+
+<div>
+<p>
+<button onclick=" calculation= calculation + 8;
+console.log(calculation);
+"> 8</button>
+
+<button onclick=" calculation= calculation + 9; 
+console.log(calculation);
+"> 9</button>
+
+<button onclick=" calculation= calculation + 0; 
+console.log(calculation);
+"> 0</button>
+
+<button onclick=" calculation= calculation + '/'
+console.log(calculation);
+"> /</button>
+
+</p>
+</div>
+
+<div>
+<p>
+<button onclick=" calculation= calculation + '*';
+console.log(calculation);
+"> *</button>
+
+<button onclick=" calculation= calculation + '.';
+console.log(calculation);
+alert('Entered');
+"> .</button>
+
+<button onclick=" calculation= '';
+console.log('cleared.');
+console.log(calculation);
+"> clear</button>
+</p>
+</div>
+<script> 
+let calculation = "";
+</script>
+  </body>
+</html>
