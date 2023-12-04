@@ -31,7 +31,13 @@
                 box-shadow: 0 0 5px antiquewhite,
                 0 0 25px antiquewhite, 0 0 50px antiquewhite,
                 0 0 75px antiquewhite;
-            }            
+            }    
+            .bshoe{
+                width:200px;
+                margin: 3%;
+                height: 200px;
+                cursor:pointer;
+            }        
         </style>
     </head>
     <body>
@@ -39,6 +45,7 @@
             WELCOME TO THE HOME OF SHOES
         </h1>
         <img src="img/Af1-Butterfly.jpg" alt="White shoe">
+        <img src=" img/Af1-Black.jpg" alt="shoe" class="bshoe">
         <p>  Af1-Butterfly White</p>
         <button onclick=" cart=cart + 1;
          console.log(`Cart Quantity: ${cart}`);
@@ -47,13 +54,20 @@
         "> Add to cart</button>
         <button onclick=" cart=cart + 2;
         console.log(`Cart Quantity: ${cart}`);
+        alert('Added');
         "> +2</button>
+
+        <button onclick=" cart=cart + 3;
+        console.log(`Cart Quantity: ${cart}`);
+        alert('Added');
+        "> +3</button>
 
         
 
         <script> 
             let cart=0;
             let total=0;
+
 
         </script>
 
