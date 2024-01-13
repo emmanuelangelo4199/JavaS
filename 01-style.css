@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font:  sans-serif;
+}
+/*body{
+min-height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0,7),rgba(4,9,30,0,7)),url(img/tech.png);
+background-position: center;
+background-size: cover;
+position: relative;
+}*/
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #2a2c2a;
+    padding: 5px 5%;
+
+}
+.logo{
+   width:160px;
+   margin-right: 45px;
+}
+.menu-bar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 4px white;
+}
+ .hom, .art, .pro, .abt{
+    border: 1px solid white;
+}
+.image .ima{
+    flex-direction: row;
+    width: 40px;
+    border-radius: 50%;
+    list-style: none;
+    cursor: pointer;
+}
+.menu-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    padding:15px;
+    font-size: 20px;
+}
+.menu-bar ul li .logo{
+    width: 28px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.about {
+    margin:10px;
+    padding:10px;
+    border: 4px bold black;
+}
+.about h1{
+    text-align: center;
+    font-size: 60px;
+}
+.about h2{
+    font-size: 40px;
+}
+.about h4 p{
+    font-size: 25px;
+}
+.social-link{
+    margin: 15px;
+    padding: 15px;
+    justify-content: flex-start;
+    align-items: first baseline;
+}
+.social-link ul{
+    margin:5px;
+    padding:5px'
+}
+.social-link ul li{
+    margin: 7px;
+    padding: 7px;
+    display:inline-flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    list-style: none;
+
+}
+.social-link ul li a img{
+    width: 20px;
+}
+
